@@ -1,5 +1,5 @@
-#Welcome to the `sexxie` homepage
-##Security State Configuration Inspection Engine
+# Welcome to the `sexxie` homepage
+## Security State Configuration Inspection Engine
 
 
 This tool leverages cloud provider APIs to test the existing state of cloud environments.
