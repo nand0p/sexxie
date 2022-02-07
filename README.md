@@ -34,8 +34,11 @@ Executing the following plugins:
   '201_pipeline_resources.py`,
   '201_pipeline_actions.py`
 ]
+```
 
+Each standalone plugin can be written in any language, as only return code is important.
 
+```
 001_cloudtrail.py plugin has returned success
    - AWS cloudtrail security policy - OK
 
@@ -59,6 +62,6 @@ Executing the following plugins:
 
 202_pipeline_actions.py plugin has return success
    - pipelines have passed security action inspection - OK
-
+```
 
 If any plugins fail, sexxie returns error code. This can be used for advanced pipeline auto-remediation techniques. Perhaps an application should be automatically brought down, if/when the application security policies are out of compliance. Downtime may be less costly than security violation, breaches, and reputation.
